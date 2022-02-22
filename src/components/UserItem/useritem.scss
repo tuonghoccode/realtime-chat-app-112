@@ -1,0 +1,20 @@
+.user-item {
+    padding: .5rem 1rem;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    .info {
+        line-height: 1;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        .role {
+            color: rgba(0, 0, 0, 0.4);
+            font-weight: 500;
+            font-size: .8rem;
+            font-style: italic;
+        }
+    }
+}
