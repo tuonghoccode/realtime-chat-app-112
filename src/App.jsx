@@ -3,7 +3,7 @@ import Login from './components/Login/Login'
 import Main from './components/Main/Main'
 import io from "socket.io-client";
 
-const socket = io.connect("https://realtime-chat-111.herokuapp.com/");
+const socket = io.connect("https://chatrealtime12.herokuapp.com/");
 
 function App() {
   
